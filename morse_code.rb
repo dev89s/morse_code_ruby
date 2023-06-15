@@ -75,20 +75,20 @@ def translate_char(char)
   end
 end
 
-def translate_word (morse_word)
-  chars = morse_word.split(" ")
+def translate_word(morse_word)
+  chars = morse_word.split
   alpha_word = ""
-  chars.each {
-    |morse_char| alpha_word += translate_char(morse_char)
+  chars.each { |morse_char|
+    alpha_word += translate_char(morse_char)
   }
   return alpha_word
 end
 
-def translate_sentence (morse_message)
+def translate_sentence(morse_message)
   morse_words = morse_message.split("   ")
   result = ""
-  morse_words.each {
-    |morse_word| result += translate_word(morse_word)
+  morse_words.each { |morse_word|
+    result += translate_word(morse_word)
     result += " "
   }
   result = result.strip

@@ -50,46 +50,25 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 About The Project <a id="about-project"></a>
 
-**Morse Code Translator** is a database that is created based off a diagram. It includes 5 tables:
-
-1. Patients
-2. Medical_histories
-3. Treatments
-4. Invoice_items
-5. Invoices
-
-**The reference diagram:**
-
-<img src="./Database%20Diagram.png">
+**Morse Code Translator** is a project that decodes morese code to human readable english sentence
 
 ## 🛠 Built With <a id="built-with"></a>
 
 ### Tech Stack <a id="tech-stack"></a>
 
 <details>
-  <summary>Client</summary>
+<summary>Server</summary>
   <ul>
-    <li><a href="https://www.postgresql.org/docs/current/app-psql.html">psql</a></li>
+    <li><a href="https://www.ruby-lang.org/">Ruby</a></li>
   </ul>
 </details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Features -->
 
 ### Key Features <a id="key-features"></a>
 
-- **Transactions are Atomic**
-- **It is Consistent**
-- **It's Reliable/Durable**
-- **It is PostgreSQL**
+- **Translate morse code**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,21 +86,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a id="getting-started"></a>
 
-How to install PostgreSQL on MacOS you ask?
-Well, let's start by install this simple app: [PostgreSQL.app](https://postgresapp.com/downloads.html)
-
-<img src="./Postgres.app.png">
-
-Then follow the instructions (1-2-3) in [here](https://postgresapp.com/)
-
-And then if you have an open terminal close and open a new one.
-Enter the command below:
-
 ```sh
- $ psql
+ bundle install
 ```
-
-Use all the default fields by pressing enter and you'll be logged in.
 
 <br />
 <!-- 
@@ -147,7 +114,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/dev89s/clinic_db_from_diagram.git
+  git clone https://github.com/dev89s/morse_code_ruby.git
 ```
 
 <!--
@@ -222,8 +189,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add data to the schema**
-- [ ] **Add queries to get particular data**
+- [ ] **Add front end UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -233,7 +199,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to give any recommendations [issues page](https://github.com/dev89s/vet-clinic-db/issues).
+Feel free to give any recommendations [issues page](https://github.com/dev89s/morse_code_ruby/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
